@@ -68,7 +68,7 @@ chattr +i /www/server/panel/data/plugin.json
 chattr -i /www/server/panel/data/repair.json
 rm /www/server/panel/data/repair.json
 cd /www/server/panel/data
-wget https://ghproxy.com/https://raw.githubusercontent.com/MetaQuest/aaPanel_tool/main/resource/repair.json
+wget https://raw.githubusercontent.com/MetaQuest/aaPanel_tool/main/resource/repair.json
 chattr +i /www/server/panel/data/repair.json
 red "开心成功."
 }
@@ -97,7 +97,7 @@ chattr +i -R /www/server/panel/logs/request
 
 function sinicization-gacjie(){
 # 汉化 来自 https://gitee.com/gacjie/aapanel_chinese 
-wget -O /root/chinese.zip https://ghproxy.com/https://github.com/MetaQuest/aaPanel_tool/releases/download/1.2/aapanel_chinese-6.8.21.zip
+wget -O /root/chinese.zip https://github.com/MetaQuest/aaPanel_tool/releases/download/1.2/aapanel_chinese-6.8.21.zip
 unzip -o /root/chinese.zip -d /www/server/
 rm /root/chinese.zip -rf
 /etc/init.d/bt restart
