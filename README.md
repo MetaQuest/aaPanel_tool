@@ -17,7 +17,7 @@ This tool is available for CentOS/Debian/Ubuntu clients for some of your own nee
 ## Usage
 
 ~~~
-wget https://raw.githubusercontent.com/MetaQuest/aaPanel/main/script/aapanel.sh  -O aapanel.sh && chmod +x aapanel.sh && clear && ./aapanel.sh
+wget https://raw.githubusercontent.com/MetaQuest/aaPanel_tool/main/script/aapanel.sh  -O aapanel.sh && chmod +x aapanel.sh && clear && ./aapanel.sh
 ~~~
 
 
